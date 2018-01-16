@@ -10,5 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "request": "^2.83.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoye-fe/so.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luoye-fe/so/issues"
+  },
+  "homepage": "https://github.com/luoye-fe/so#readme"
 }
