@@ -21,4 +21,6 @@ req.pipe(request(URL)).res;
 
 * 启动 `node index.js`
 
+tips: 部署的机器必须能访问 google 
+
 首页(`home.html`)有百度的统计代码，自己部署的话需要去掉。
