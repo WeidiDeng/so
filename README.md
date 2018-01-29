@@ -19,8 +19,11 @@ req.pipe(request(URL)).res;
 
 * clone 本项目 `git clone https://github.com/luoye-fe/so.git`
 
+cd so
+npm init --yes
+npm install request --save
+
 * 启动 `node index.js`
 
 tips: 部署的机器必须能访问 google 
-
-首页(`home.html`)有百度的统计代码，自己部署的话需要去掉。
+      建议使用forever: npm install forever -g && forever start index.js
