@@ -27,8 +27,12 @@ npm install request --save
 
 * 启动 `node index.js`
 
-tips: 部署的机器必须能访问 google 
-      建议使用forever: 
-      ``` bash
-      npm install forever -g && forever start index.js
-      ```
+tips: 
+
+部署的机器必须能访问 google 
+
+建议使用forever: 
+
+``` bash
+npm install forever -g && forever start index.js
+```
